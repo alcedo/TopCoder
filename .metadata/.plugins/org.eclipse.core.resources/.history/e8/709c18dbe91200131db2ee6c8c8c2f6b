@@ -1,0 +1,7 @@
+public class ImageDithering {
+
+	public int count(String dithered, String[] screen) {
+		return 0;
+	}
+
+}

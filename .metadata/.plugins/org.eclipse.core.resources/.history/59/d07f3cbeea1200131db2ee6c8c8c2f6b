@@ -1,0 +1,27 @@
+public class ImageDithering {
+
+	
+	// an alternative is to use HashSet (not hashmap, since we have no value to pair up with key)
+	public int count(String dithered, String[] screen) {
+		
+		char[] d = dithered.toCharArray();
+		int[] map = new int[256 + 1]; //256 ascii values 127 * 2 
+		for(char c : d) {
+			int ascii = c; //Converts to Ascii value first
+			map[ascii] = 1; 
+		}
+		
+		int count = 0;
+		for(int i=0; i<screen.length; i++){
+			String line = screen[i];
+			for(char c : line.toCharArray()) {
+				int ascii = c;
+				if(map[ascii] == 1) {
+					count++;
+				}
+			}
+		}
+		return count;
+	}
+
+}

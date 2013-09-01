@@ -1,0 +1,14 @@
+public class ImageDithering {
+
+	public int count(String dithered, String[] screen) {
+		
+		char[] d = dithered.toCharArray();
+		int[] map = new int[256 + 1];
+		for(char c : d) {
+			
+		}
+		
+		return 0;
+	}
+
+}

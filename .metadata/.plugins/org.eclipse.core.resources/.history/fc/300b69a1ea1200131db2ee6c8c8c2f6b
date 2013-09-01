@@ -1,0 +1,25 @@
+public class ImageDithering {
+
+	public int count(String dithered, String[] screen) {
+		
+		char[] d = dithered.toCharArray();
+		int[] map = new int[256 + 1];
+		for(char c : d) {
+			int ascii = c;
+			map[ascii] = 1; 
+		}
+		
+		int count = 0;
+		for(int i=0; i<screen.length; i++){
+			String line = screen[i];
+			for(char c : line.toCharArray()) {
+				int ascii = c;
+				if(map[ascii] == 1) {
+					count++;
+				}
+			}
+		}
+		return count;
+	}
+
+}
