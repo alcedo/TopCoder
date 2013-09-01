@@ -1,0 +1,14 @@
+public class ExerciseMachine {
+
+	public int getPercentages(String time) {
+		String[] split = time.split(":");
+		int hours = Integer.parseInt(split[0]);
+		int mins = Integer.parseInt(split[1]);
+		int seconds = Integer.parseInt(split[2]);
+		
+		
+		
+		return 0;
+	}
+
+}

@@ -1,0 +1,11 @@
+public class ExerciseMachine {
+
+	public int getPercentages(String time) {
+		char[] split = time.split(":");
+		
+		
+		
+		return 0;
+	}
+
+}

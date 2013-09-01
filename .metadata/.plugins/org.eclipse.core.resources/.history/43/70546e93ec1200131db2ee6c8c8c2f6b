@@ -1,0 +1,7 @@
+public class ExerciseMachine {
+
+	public int getPercentages(String time) {
+		return 0;
+	}
+
+}
