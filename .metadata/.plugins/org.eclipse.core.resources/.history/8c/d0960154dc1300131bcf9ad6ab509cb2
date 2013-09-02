@@ -1,0 +1,16 @@
+public class PowerOutage {
+
+	public int estimateTimeOut(int[] fromJunction, int[] toJunction, int[] ductLength) {
+		int totalTime = 0;
+		
+		for(int x : ductLength) 
+			totalTime += x * 2; 
+		
+		//find longest path
+		
+		
+		
+		return 0;
+	}
+
+}

@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+
+
+public class PowerOutage {
+
+	public int estimateTimeOut(int[] fromJunction, int[] toJunction, int[] ductLength) {
+		int totalTime = 0;
+		
+		for(int x : ductLength) 
+			totalTime += x * 2; 
+		
+		return 0;
+	}
+	
+	private int maxHeight(int start, int[] from, int[] to, int[] ductLength  ) {
+		
+		
+		
+	}
+
+}

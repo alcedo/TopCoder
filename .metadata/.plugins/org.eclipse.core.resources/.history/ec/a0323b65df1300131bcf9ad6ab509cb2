@@ -1,0 +1,34 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.PriorityQueue;
+
+
+public class PowerOutage {
+
+	public int estimateTimeOut(int[] fromJunction, int[] toJunction, int[] ductLength) {
+		int totalTime = 0;
+		
+		for(int x : ductLength) 
+			totalTime += x * 2; 
+		
+		// create tree
+		PriorityQueue<Integer> s = new PriorityQueue<Integer>();
+		for(int i=0; i<fromJunction.length; i++) 
+			s.add(i);
+
+		for(s.){
+			
+		}
+		
+		
+		return 0;
+	}
+	
+	
+	
+	
+	private class Node {
+		ArrayList<Integer> children;
+	}
+
+}

@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+
+
+public class PowerOutage {
+
+	public int estimateTimeOut(int[] fromJunction, int[] toJunction, int[] ductLength) {
+		int totalTime = 0;
+		
+		for(int x : ductLength) 
+			totalTime += x * 2; 
+		
+		// create tree
+		HashSet<Integer> s = new HashSet<Integer>();
+		for(int i=0; i<fromJunction.length; i++) 
+			s.add(fromJunction[i]);
+		
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		for(int x : s){
+			System.out.println(x);
+			list.add(x);
+		}
+		
+		Collections.sort(list);
+		for(int x : list){
+			System.out.println(x);
+		}
+		
+		
+		return 0;
+	}
+	
+	
+	
+	
+	private class Node {
+		ArrayList<Integer> children;
+	}
+
+}
