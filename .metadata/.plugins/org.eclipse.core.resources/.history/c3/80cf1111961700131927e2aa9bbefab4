@@ -1,0 +1,44 @@
+
+public class Queen {
+
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+	
+	
+	
+	
+	public class SolveQueen {
+		
+		static final int SIZE = 8;
+		static final int QUEEN = 1;
+		static final int EMPTY = 0;
+		
+		int[][] board = new int[SIZE][SIZE];
+		
+		public void solve(int col) {
+			
+		}
+	
+		
+		// Determines if queen is being threatened at row, col
+		public void threat(int row, int col) {
+			
+		}
+		
+		public void markBoard(int row, int col) {
+			board[row][col] = QUEEN;
+		}
+		
+		public void unMarkBoard(int row, int col) {
+			board[row][col] = EMPTY;
+		}
+		
+	}
+
+}
+
+
