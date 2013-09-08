@@ -4,7 +4,6 @@ public class Queen {
 	public static void main(String[] args) {
 		
 		SolveQueen puzzle = new SolveQueen();
-		puzzle.solve(0);
 		puzzle.printBoard();
 	}
 	

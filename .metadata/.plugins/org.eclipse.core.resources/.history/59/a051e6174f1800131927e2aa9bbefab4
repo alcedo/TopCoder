@@ -11,7 +11,7 @@ public class Queen {
 	// solve using rescursive back tracking 
 	public static class SolveQueen {
 		
-		static final int SIZE = 11;
+		static final int SIZE = 8;
 		static final int QUEEN = 1;
 		static final int EMPTY = 0;
 		
